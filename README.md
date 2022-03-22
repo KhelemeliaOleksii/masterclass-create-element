@@ -14,6 +14,13 @@ https://dev.to/ahmedadel/custom-javascript-createelement-function-244f
    - Add any custom property or events to it
    - Add child nodes to this element
 
+# How to use it:
+
+    First of all, this function takes an object that must have a property named Tag, to specify the element Tag name:
+
+    let myElement = CreateElement({Tag:'div'});
+
+
 # What I do
 
 Create custom function createElement
@@ -21,7 +28,4 @@ Create custom function createElement
 Practice on:
 - js -> dynamically create DOM-elements
 
-# Todo
-
-Create custom function createElement
 
