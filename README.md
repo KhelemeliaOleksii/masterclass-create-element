@@ -16,9 +16,24 @@ https://dev.to/ahmedadel/custom-javascript-createelement-function-244f
 
 # How to use it:
 
-    First of all, this function takes an object that must have a property named Tag, to specify the element Tag name:
+This function takes a tag name and a configure object:
 
-    let myElement = CreateElement({Tag:'div'});
+    let myElement = CreateElement(tagName, obj);
+    obj = {
+            const obj = {
+        id: 'myId',
+        classList: 'btn btn-danger',
+        childNodes: [
+            imgElement,
+            label
+        ],
+        attributes:
+        [
+        {key:'data-src', value: 'https://img.png'},
+        {key:'customAttr2', value: 'ABC'},
+        ],
+    }
+    
 
 
 # What I do
